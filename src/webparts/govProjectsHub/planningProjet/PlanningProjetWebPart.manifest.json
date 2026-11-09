@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b2a22222-2222-4222-8222-222222222222",
+  "alias": "PlanningProjetWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "PPM" },
+    "title": { "default": "Planning projet" },
+    "description": { "default": "Vue hiérarchique WBS : phases, lots, tâches" },
+    "officeFabricIconFontName": "ProjectLogo32",
+    "properties": {}
+  }]
+}

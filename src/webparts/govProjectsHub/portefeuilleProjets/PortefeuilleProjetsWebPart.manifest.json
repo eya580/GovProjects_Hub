@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b1a11111-1111-4111-8111-111111111111",
+  "alias": "PortefeuilleProjetsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "PPM" },
+    "title": { "default": "Portefeuille projets" },
+    "description": { "default": "Liste des projets, filtres et indicateurs d'avancement" },
+    "officeFabricIconFontName": "ProjectLogo32",
+    "properties": {}
+  }]
+}

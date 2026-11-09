@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "gov-projects-hub",
+    "libraryId": "43e0222d-15b7-49b8-a35b-d2b09d941a0b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "GovProjects Hub",
+    "solutionShortDescription": "GovProjects Hub description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

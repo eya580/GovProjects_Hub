@@ -1,0 +1,81 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "gov-projects-hub-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/GovProjectsHubWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/GovProjectsHubWebPart.manifest.json"
+        }
+      ]
+    },
+    "capacite-charge-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/capaciteCharge/CapaciteChargeWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/capaciteCharge/CapaciteChargeWebPart.manifest.json"
+        }
+      ]
+    },
+    "gestion-affectations-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/gestionAffectations/GestionAffectationsWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/gestionAffectations/GestionAffectationsWebPart.manifest.json"
+        }
+      ]
+    },
+    "administration-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/administration/AdministrationWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/administration/AdministrationWebPart.manifest.json"
+        }
+      ]
+    },
+    "ma-feuille-temps-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/maFeuilleTemps/MaFeuilleTempsWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/maFeuilleTemps/MaFeuilleTempsWebPart.manifest.json"
+        }
+      ]
+    },
+    "planning-projet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/planningProjet/PlanningProjetWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/planningProjet/PlanningProjetWebPart.manifest.json"
+        }
+      ]
+    },
+    "portefeuille-projets-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/portefeuilleProjets/PortefeuilleProjetsWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/portefeuilleProjets/PortefeuilleProjetsWebPart.manifest.json"
+        }
+      ]
+    },
+    "validation-temps-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/govProjectsHub/validationTemps/ValidationTempsWebPart.js",
+          "manifest": "./src/webparts/govProjectsHub/validationTemps/ValidationTempsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GovProjectsHubWebPartStrings": "lib/webparts/govProjectsHub/loc/{locale}.js",
+    "CapaciteChargeWebPartStrings": "lib/webparts/govProjectsHub/capaciteCharge/loc/{locale}.js",
+    "GestionAffectationsWebPartStrings": "lib/webparts/govProjectsHub/gestionAffectations/loc/{locale}.js",
+    "AdministrationWebPartStrings": "lib/webparts/govProjectsHub/administration/loc/{locale}.js",
+    "MaFeuilleTempsWebPartStrings": "lib/webparts/govProjectsHub/maFeuilleTemps/loc/{locale}.js",
+    "PlanningProjetWebPartStrings": "lib/webparts/govProjectsHub/planningProjet/loc/{locale}.js",
+    "PortefeuilleProjetsWebPartStrings": "lib/webparts/govProjectsHub/portefeuilleProjets/loc/{locale}.js",
+    "ValidationTempsWebPartStrings": "lib/webparts/govProjectsHub/validationTemps/loc/{locale}.js"
+  }
+}

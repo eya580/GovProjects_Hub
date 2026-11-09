@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b7a77777-7777-4777-8777-777777777777",
+  "alias": "AdministrationWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "PPM" },
+    "title": { "default": "Administration" },
+    "description": { "default": "Types de tâches, périodes et paramètres" },
+    "officeFabricIconFontName": "ProjectLogo32",
+    "properties": {}
+  }]
+}

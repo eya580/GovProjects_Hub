@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b3a33333-3333-4333-8333-333333333333",
+  "alias": "GestionAffectationsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "PPM" },
+    "title": { "default": "Gestion des affectations" },
+    "description": { "default": "Affectation des ressources aux tâches" },
+    "officeFabricIconFontName": "ProjectLogo32",
+    "properties": {}
+  }]
+}

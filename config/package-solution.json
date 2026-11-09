@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gov-projects-hub-client-side-solution",
+    "id": "43e0222d-15b7-49b8-a35b-d2b09d941a0b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "GovProjects Hub description"
+      },
+      "longDescription": {
+        "default": "GovProjects Hub description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gov-projects-hub Feature",
+        "description": "The feature that activates elements of the gov-projects-hub solution.",
+        "id": "338e9d8a-d97d-4ca0-8c96-f3673ec92fdb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gov-projects-hub.sppkg"
+  }
+}

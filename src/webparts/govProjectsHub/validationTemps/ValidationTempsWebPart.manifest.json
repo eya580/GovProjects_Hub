@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b5a55555-5555-4555-8555-555555555555",
+  "alias": "ValidationTempsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "PPM" },
+    "title": { "default": "Validation des feuilles de temps" },
+    "description": { "default": "Validation ou rejet des feuilles soumises" },
+    "officeFabricIconFontName": "ProjectLogo32",
+    "properties": {}
+  }]
+}
